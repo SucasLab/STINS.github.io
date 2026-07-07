@@ -1,0 +1,197 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: "Times New Roman", Times, serif;
+}
+.code-note {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.85rem;
+  color: #fff;
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Bulma 自带，但这里明确一下 */
+.is-hidden {
+  display: none;
+}
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.publication-authors {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.flat-ground-media-carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fig2-carousel {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.flat-ground-media-carousel .item {
+  text-align: center;
+  overflow: visible;
+}
+
+.flat-ground-media-carousel .slider-container,
+.flat-ground-media-carousel .slider-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.flat-ground-reference-media,
+.teflon-match-media {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flat-ground-reference-media {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.fig2-media {
+  width: 100%;
+  max-width: 100% !important;
+  height: auto;
+}
+
+.teflon-match-media {
+  width: auto;
+  max-width: 85%;
+  height: min(40vh, 320px);
+  object-fit: contain;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
